@@ -1,0 +1,353 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local SPAWN = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Frame_5 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local PercentLabel = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local SPAWN_2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local SPAWN_3 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.345249295, 0, 0.383165836, 0)
+Frame.Size = UDim2.new(0, 328, 0, 186)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0376828834, 0, 0.0537813231, 0)
+Frame_2.Size = UDim2.new(0, 305, 0, 165)
+
+UICorner.CornerRadius = UDim.new(0.300000012, 8)
+UICorner.Parent = Frame_2
+
+UICorner_2.CornerRadius = UDim.new(0.300000012, 8)
+UICorner_2.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.185975611, 0, 0.0537634417, 0)
+TextLabel.Size = UDim2.new(0, 206, 0, 38)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "TRADE SCAM"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.210365847, 0, 0.225806445, 0)
+TextBox.Size = UDim2.new(0, 192, 0, 31)
+TextBox.Font = Enum.Font.FredokaOne
+TextBox.PlaceholderText = "USERNAME HERE.."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 20.000
+
+UICorner_3.CornerRadius = UDim.new(0.300000012, 8)
+UICorner_3.Parent = TextBox
+
+SPAWN.Name = "SPAWN"
+SPAWN.Parent = Frame
+SPAWN.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+SPAWN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SPAWN.BorderSizePixel = 0
+SPAWN.Position = UDim2.new(0.359756112, 0, 0.661290348, 0)
+SPAWN.Size = UDim2.new(0, 92, 0, 25)
+SPAWN.Font = Enum.Font.FredokaOne
+SPAWN.Text = "START"
+SPAWN.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPAWN.TextSize = 20.000
+
+UICorner_4.CornerRadius = UDim.new(0.300000012, 8)
+UICorner_4.Parent = SPAWN
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.201219514, 0, 0.795698941, 0)
+TextLabel_2.Size = UDim2.new(0, 195, 0, 27)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "YOUTUBE : ReiRei"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 15.000
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.LayoutOrder = 18
+Frame_3.Position = UDim2.new(-0.0031976467, 0, -0.00125876802, 0)
+Frame_3.Size = UDim2.new(0, 328, 0, 186)
+Frame_3.ZIndex = 10
+
+Frame_4.Parent = Frame_3
+Frame_4.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0204750616, 0, 0.570331514, 0)
+Frame_4.Size = UDim2.new(0, 314, 0, 30)
+
+UICorner_5.CornerRadius = UDim.new(0.100000001, 10)
+UICorner_5.Parent = Frame_4
+
+Frame_5.Parent = Frame_4
+Frame_5.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Size = UDim2.new(0, 0, 1, 0)
+
+UICorner_6.CornerRadius = UDim.new(0.100000001, 10)
+UICorner_6.Parent = Frame_5
+
+PercentLabel.Name = "PercentLabel"
+PercentLabel.Parent = Frame_4
+PercentLabel.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+PercentLabel.BackgroundTransparency = 1.000
+PercentLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PercentLabel.BorderSizePixel = 0
+PercentLabel.Position = UDim2.new(0.00636942685, 0, 0, 0)
+PercentLabel.Size = UDim2.new(0.996815264, 0, 1, 0)
+PercentLabel.Font = Enum.Font.FredokaOne
+PercentLabel.Text = "0%"
+PercentLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+PercentLabel.TextSize = 14.000
+
+TextLabel_3.Parent = Frame_4
+TextLabel_3.Active = true
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.LayoutOrder = 1
+TextLabel_3.Position = UDim2.new(0.171063662, 0, -3.19561553, 0)
+TextLabel_3.Size = UDim2.new(0, 210, 0, 36)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "ADOPT ME"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 19.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame_4
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.106868282, 0, -1.53575027, 0)
+TextLabel_4.Size = UDim2.new(0, 250, 0, 39)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = " BYPASSING ANTI CHEAT"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 19.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0.300000012, 8)
+UICorner_7.Parent = Frame_3
+
+SPAWN_2.Name = "SPAWN"
+SPAWN_2.Parent = Frame
+SPAWN_2.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+SPAWN_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SPAWN_2.BorderSizePixel = 0
+SPAWN_2.Position = UDim2.new(0.103658535, 0, 0.526881695, 0)
+SPAWN_2.Size = UDim2.new(0, 92, 0, 25)
+SPAWN_2.Font = Enum.Font.FredokaOne
+SPAWN_2.Text = "ON"
+SPAWN_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPAWN_2.TextSize = 20.000
+
+UICorner_8.CornerRadius = UDim.new(0.300000012, 8)
+UICorner_8.Parent = SPAWN_2
+
+SPAWN_3.Name = "SPAWN"
+SPAWN_3.Parent = Frame
+SPAWN_3.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+SPAWN_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SPAWN_3.BorderSizePixel = 0
+SPAWN_3.Position = UDim2.new(0.615853667, 0, 0.526881695, 0)
+SPAWN_3.Size = UDim2.new(0, 92, 0, 25)
+SPAWN_3.Font = Enum.Font.FredokaOne
+SPAWN_3.Text = "ON"
+SPAWN_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPAWN_3.TextSize = 20.000
+
+UICorner_9.CornerRadius = UDim.new(0.300000012, 8)
+UICorner_9.Parent = SPAWN_3
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(-0.0701219514, 0, 0.360215068, 0)
+TextLabel_5.Size = UDim2.new(0, 206, 0, 38)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "FREEZE"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 20.000
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.442073166, 0, 0.360215068, 0)
+TextLabel_6.Size = UDim2.new(0, 206, 0, 38)
+TextLabel_6.Font = Enum.Font.FredokaOne
+TextLabel_6.Text = "ACCEPT"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 20.000
+
+-- Scripts:
+
+local function MLNN_fake_script() -- Frame_3.LocalScript 
+	local script = Instance.new('LocalScript', Frame_3)
+
+	local bar = script.Parent:WaitForChild("Frame")
+	local fill = bar:WaitForChild("Frame")
+	local label = bar:WaitForChild("PercentLabel")
+	local loadingFrame = script.Parent
+	
+	for i = 0, 100 do
+		fill.Size = UDim2.new(i / 100, 0, 1, 0)
+		label.Text = i .. "%"
+		wait(0.5)
+	end
+	
+	-- Wait before removing
+	wait(0.5)
+	loadingFrame.Visible = false
+	
+end
+coroutine.wrap(MLNN_fake_script)()
+local function YPRKYG_fake_script() -- SPAWN_2.LocalScript 
+	local script = Instance.new('LocalScript', SPAWN_2)
+
+	local button = script.Parent
+	local isOn = false
+	
+	-- Initial state
+	button.Text = "OFF"
+	button.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red
+	
+	button.MouseButton1Click:Connect(function()
+		if isOn then
+			-- Turn OFF
+			button.Text = "OFF"
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red
+		else
+			-- Turn ON
+			button.Text = "ON"
+			button.BackgroundColor3 = Color3.fromRGB(0, 255, 0) -- Green
+		end
+		isOn = not isOn
+	end)
+	
+end
+coroutine.wrap(YPRKYG_fake_script)()
+local function JESL_fake_script() -- SPAWN_3.LocalScript 
+	local script = Instance.new('LocalScript', SPAWN_3)
+
+	local button = script.Parent
+	local isOn = false
+	
+	-- Initial state
+	button.Text = "OFF"
+	button.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red
+	
+	button.MouseButton1Click:Connect(function()
+		if isOn then
+			-- Turn OFF
+			button.Text = "OFF"
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red
+		else
+			-- Turn ON
+			button.Text = "ON"
+			button.BackgroundColor3 = Color3.fromRGB(0, 255, 0) -- Green
+		end
+		isOn = not isOn
+	end)
+	
+end
+coroutine.wrap(JESL_fake_script)()
+
+local UserInputService = game:GetService("UserInputService")
+
+local dragFrame = Frame  -- The Main frame you want to make draggable
+
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+    local delta = input.Position - dragStart
+    dragFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+
+dragFrame.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragging = true
+        dragStart = input.Position
+        startPos = dragFrame.Position
+
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
+        end)
+    end
+end)
+
+dragFrame.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+    if input == dragInput and dragging then
+        update(input)
+    end
+end)
